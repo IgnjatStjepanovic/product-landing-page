@@ -1,6 +1,8 @@
 body {
     font-family: 'Segoe UI', sans-serif;
-    background-color: #FAFAD2;
+    background-color: #e6e6e6;
+    width: 65%;
+    margin: auto;    
 }
 
 header {
@@ -9,7 +11,13 @@ header {
     align-items: center;
     box-sizing: border-box;
     display: flex;
-    background-color: #DAA520;
+    background-color: #9c928a;
+}
+
+.nav-link {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.4rem;
 }
 
 img {
@@ -41,7 +49,7 @@ ol {
 }
 
 .product > .level {
-    background-color: #DAA520;
+    background-color: #9c928a;
     color: black;
     padding: 15px 0;
     width: 100%;
@@ -56,7 +64,7 @@ ol {
     font-weight: 900;
     text-transform: uppercase;    
     border-radius: 1px;
-    background: #DAA520;
+    background: #9c928a;
     cursor: pointer;
     margin: 15px 0;
 }
@@ -86,6 +94,7 @@ p {
 
 input[type='email'] {
     max-width: 275px;
+    height: 30px;
     width: 100%;
     padding: 5px;
 }
@@ -98,14 +107,13 @@ input[type='submit'] {
     cursor: pointer;    
     margin: 15px 0;
     border: 0;
-    background-color: #DAA520;
+    background-color: #9c928a;
     text-transform: uppercase;
 }
 
 #howmade {    
     display: flex;
-    justify-content: center;
-    
+    justify-content: center;    
 }
 
 #pricing {
@@ -127,6 +135,5 @@ h2 {
     text-align: center;
     margin-left: 10px;
     margin-right: 10px;
-    background-color: #DAA520;
-
+    background-color: #9c928a;
 }
