@@ -1,8 +1,9 @@
 body {
+    background-size: 65%;
     font-family: 'Segoe UI', sans-serif;
-    background-color: #e6e6e6;
+    background-color: #ffffff;
     width: 65%;
-    margin: auto;    
+    margin: auto;
 }
 
 header {
@@ -11,7 +12,7 @@ header {
     align-items: center;
     box-sizing: border-box;
     display: flex;
-    background-color: #9c928a;
+    background-color: #e4eeed;
 }
 
 .nav-link {
@@ -49,7 +50,7 @@ ol {
 }
 
 .product > .level {
-    background-color: #9c928a;
+    background-color: #e4eeed;
     color: black;
     padding: 15px 0;
     width: 100%;
@@ -64,7 +65,7 @@ ol {
     font-weight: 900;
     text-transform: uppercase;    
     border-radius: 1px;
-    background: #9c928a;
+    background: #e4eeed;
     cursor: pointer;
     margin: 15px 0;
 }
@@ -107,7 +108,7 @@ input[type='submit'] {
     cursor: pointer;    
     margin: 15px 0;
     border: 0;
-    background-color: #9c928a;
+    background-color: #e4eeed;
     text-transform: uppercase;
 }
 
@@ -135,5 +136,5 @@ h2 {
     text-align: center;
     margin-left: 10px;
     margin-right: 10px;
-    background-color: #9c928a;
+    background-color: #e4eeed;
 }
